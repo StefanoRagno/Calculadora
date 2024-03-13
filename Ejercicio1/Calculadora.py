@@ -7,6 +7,17 @@ while ok == 1:
   except:
     print("Error! no se aceptan letras")
 
+# Ejemplo de refactoring de Ricardo
+
+#no_error = True
+#while no_error:
+#  try:
+#    calculo = eval(input("Operación 'Ej: 2+2*(3-1)':"))
+#    print("Resultado", calculo)
+#    no_error = False
+#  except Exception as e:
+#    print("Algo salió mal, procure hacer operaciones como 2+2*(3-1) sin letras", str(e))
+
 ok = 1
 print("Ingrese la operación que quiere hacer")
 while ok == 1:
